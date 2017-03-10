@@ -1,0 +1,658 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+
+<cards>
+
+	<card>
+		<year>2017</year>
+		<title>1ere carte</title>
+		<content>Apres les attentats en France, en Turquie, au Pakistan ou encore en Belgique, le peuple se sent en danger et demande aux gouvernements une meilleure protection. Voulez-vous organiser la lutte contre le terrorisme ?</content>
+		<response type="positive">14 attentats ont ete dejoues durant l`annee.</response>
+		<response type="negative">14 attentats ont ete commis durant l`annee. Il y a eu un total de 589 morts et 2348 blesses.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+	<card>
+		<year>2017</year>
+		<title>2e carte</title>
+		<content>Dans certains pays, la femme n`a pas d`autre solution que l`abstinence ou l`avortement clandestin pour eviter les grossesses a repetition. Autorisez-vous la contraception partout dans le monde ?</content>
+		<response type="positive">Suite a votre decision d`autoriser la contraception dans le monde, les manifestations pour se sont calmes.</response>
+		<response type="negative">Suite a votre decision de ne pas autoriser la contraception dans le monde, les manifestations se sont accrues.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2017</year>
+		<title>3e carte</title>
+		<content>Les voitures electriques vendues depuis l`annee derniere ont confirme l`importance du passage a l`essence vers l`electricite pour l`environnement. Le moteur electrique doit-il etre impose pour toutes les voitures ?</content>
+		<response type="positive">Le moteur electrique etant impose, des bornes de recharge ont du etre installes. Les citoyens sont cependant mecontents de cette decision car les voitures electriques sont trop cher sur le marche. Par contre, grâce a cette decision, la pollution diminue.</response>
+		<response type="negative">Le moteur electrique n`etant pas impose, l`environnement continue de se degrader.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>-1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/ecology.png</image>
+	</card>
+
+	<card>
+		<year>2017</year>
+		<title>4e carte</title>
+		<content>Les Etats-Unis decident de construire un mur sur toute la frontiere Mexicaine soit 3 200 km de long sur 27 m de haut. Les laisser faire ?</content>
+		<response type="positive">Les Etats-Unis ont construit leur mur, de ce fait, les pays d`Amerique du Sud declare la guerre aux Etats-Unis.</response>
+		<response type="negative">Les Etats-Unis n`ayant pas construit leur mur, les citoyens sont rassures.</response>
+		<effects>
+			<effect type="yes">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+	<card>
+		<year>2017</year>
+		<title>5e carte</title>
+		<content>La Grece connait une nouvelle crise economique. Faut-il que Facebook rachete la dette de la Grece ?</content>
+		<response type="positive">Mark Zuckerberg est devenu president de la Grece. Le drapeau national grec affiche desormais un like.</response>
+		<response type="negative">La Grece n`ayant pas ete rachete par Facebook, le pays reste en crise.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+	<card>
+		<year>2017</year>
+		<title>6e carte</title>
+		<content>Les echanges commerciaux semblent ralentis a cause de la difference de monnaie. Devons-nous passer a une monnaie universelle et supprimer toutes les autres ?</content>
+		<response type="positive">La transition a la monnaie universelle entraine une augmentation des echanges mondiaux.</response>
+		<response type="negative">La transition a la monnaie universelle n`ayant pas ete decide, rien ne se passe.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>-1</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+<!-- Next year : 2018 -->
+
+	<card>
+		<year>2018</year>
+		<title>7e carte</title>
+		<content>Un de vos adjoints vous propose de supprimer toutes les frontieres. Qu`en pensez-vous ?</content>
+		<response type="positive">La suppression des frontieres accelere l`immigration vers les pays du Nord. L`immigration massive vers le Nord entraine une surpopulation et des manifestations violentes ou on denombre 15300 blesses et 1886 morts dont 211 policiers.</response>
+		<response type="negative">La suppression des frontieres n`ayant pas ete decidee, rien ne se passe.</response>
+		<effects>
+			<effect type="yes">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2018</year>
+		<title>8e carte</title>
+		<content>On vous propose de remplacer toutes les centrales nucleaires par des energies renouvelable pour un meme rendement. Autoriser ce changement ?</content>
+		<response type="positive">L`utilisation des energies renouvelable a coute cher, mais l`environnement se porte mieux.</response>
+		<response type="negative">Nous avons continue a utiliser les centrales nucleaires, mais les sources d`uranium se sont epuisees. Plusieurs millions de foyers se retrouvent dans l`obscurite pendant nous trouvions une idee pour remplacer la production d`electricite.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>-1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/ecology.png</image>
+	</card>
+
+	<card>
+		<year>2018</year>
+		<title>9e carte</title>
+		<content>Il y a de plus en plus de manifestations dans le monde pour autoriser le mariage homosexuel. Comment vous positionnez vous face a ce sujet ?</content>
+		<response type="positive">La communaute homosexuelle se rejouit grandement de votre decision. De plus, l`organisation des mariages fait accroitre l`economie.</response>
+		<response type="negative">La communaute homosexuelle n`approuve pas votre decision de ne pas autoriser le mariage homosexuel. Les manifestations continues et certaines deviennent violentes.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2018</year>
+		<title>10e carte</title>
+		<content>La legalisation du cannabis semble prendre une bonne tournure dans la plupart des pays. Devons-nous rendre cette legalisation mondiale ?</content>
+		<response type="positive">La legalisation du cannabis fait baisser de delinquance et fait disparaitre des cartels de drogue.</response>
+		<response type="negative">L`interdiction du cannabis augmente la delinquance et l`influence des cartels de drogue.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2018</year>
+		<title>11e carte</title>
+		<content>Un medecin vous rapporte les succes de ses experimentations sur l`etre humain et vous demande de rendre ces experimentations legales mondialement. Que lui repondez-vous ?</content>
+		<response type="positive">Les medicaments et traitements deviennent plus performants, mais il y a de grosses manifestations contre les pratiques dangereuses des experiences.</response>
+		<response type="negative">Votre refus d`autoriser l`experimentation humaine n`entraine aucune consequence.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2018</year>
+		<title>12e carte</title>
+		<content>La recherche en medecine semble ralentie par le manque de fonds financiers. Fournir plus fonds ?</content>
+		<response type="positive">Votre decision d`allouer plus de budget a la sante a permis de trouver un remede contre le cancer.</response>
+		<response type="negative">Les medecins n`ayant pas eu plus de budget pour leurs recherches non pas pu trouver un remede contre une nouvelle epidemie qui a tue 4% de la population mondiale.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+<!-- Next year : 2019 -->
+
+	<card>
+		<year>2019</year>
+		<title>13e carte</title>
+		<content>Avec la disparition de plusieurs especes au cours des dernieres annees, de nouvelles especes sont passees en categorie “En voie de disparition” dans certains pays. Le probleme est que certaines productions sont en arret par manque de matiere premiere animale. Faut-il autoriser la chasse et la peche de toutes les especes dans le monde ?</content>
+		<response type="positive">L`autorisation de la chasse et de la peche a entraine la disparition de nombreuses especes proteges mais la production reprend.</response>
+		<response type="negative">L`interdiction de la chasse et de la peche a permis de preserver les especes en voie de disparition et donc des ecosystemes. L`economie est cependant ralentie.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>-1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/ecology.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>14e carte</title>
+		<content>La NASA avait annonce la decouverte de 7 planetes de la taille de la Terre a 40 annees-lumiere de nous et autour d`une etoile naine dont 3 d`entre elles qui pourraient potentiellement abriter de la vie. Ils ont maintenant le projet de lancer 7 fusees pour faire des analyses de ces differentes planetes. Autorisez-vous ce projet ?</content>
+		<response type="positive">Le lancement des 7 fusees a destination du systeme de Trappist-1 a coute extremement cher a cause du carburant utilise par les fusees et pour le materiel de la mission, mais un des robots a trouve le fossile d`une forme de vie sur l`une des planetes.</response>
+		<response type="negative">Le refus du projet de decouverte du systeme Trappist-1 n`a aucune consequence. La NASA se concentre plus sur notre propre systeme.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>-1</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>15e carte</title>
+		<content>Nos robots deviennent de plus en plus performants et les essaies dans les usines, hôpitaux et commerces sont concluants. Devons-nous rendre totale la robotisation dans ces secteurs ?</content>
+		<response type="positive">La robotisation massive augmente le taux de chômage, car les ouvriers sont remplaces par des machines. Neanmoins, il y a une augmentation du niveau intellectuel et une creation progressive de nouveaux metiers.</response>
+		<response type="negative">La decision de ne pas rendre la robotisation massive dans certains secteurs d`activite a permis de preserver des emplois.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>-1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>16e carte</title>
+		<content>Les plus grandes marques automobiles sont en plein deficit financier face a la production des voitures electriques. Google propose de racheter les societes pour relancer le marche. Que faisons-nous ?</content>
+		<response type="positive">Google a desormais le monopole du marche mais, a fixe des prix plus eleves.</response>
+		<response type="negative">Les societes touchees par le deficit du aux voitures electrique ont commence a creer leurs propres modeles. Ils ont donc elargi leurs offres. Il y a de nouveaux modeles electriques innovant sur le marche de l`automobile.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>17e carte</title>
+		<content>On a enregistre le plus grand pic de chaleur du au rechauffement climatique. Un professeur de renomme mondial vous a fait part de son plan : Faire fondre l`Antarctique pour refroidir la temperature mondiale. Approuvez-vous ?</content>
+		<response type="positive">La solution pour diminuer la temperature mondiale en faisant fondre l`Antarctique engendre la preservation de la couche d`ozone mais, augmente le niveau des eaux et donc creer des inondations.</response>
+		<response type="negative">Votre reponse defavorable au professeur pour faire fondre l`Antarctique afin de refroidir la temperature mondiale entraine comme consequence la degradation de l`environnement.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>-1</environment>
+				<people>0</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/ecology.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>18e carte</title>
+		<content>Lors de votre revue des troupes, un general vous a fait remarquer que les medias se repetent et abrutissent les gens avec des emissions comme “Les Ch`tits en Coree du Nord”. Il vous propose de passer a un media unique avec des temps d`informations obligatoires. Qu`en pensez-vous ?</content>
+		<response type="positive">Votre accord pour un media unique a cause de nombreuses manifestations pour la liberte d`expression et de l`information. Ces manifestations non pacifiques ont fait 413 blesses, 18 mort dont 17 policiers.</response>
+		<response type="negative">Votre desaccord pour un media unique ne fait aucune consequence.</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>1</military>
+			</effect>
+			<effect type="no">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+	<card>
+		<year>2019</year>
+		<title>19e carte</title>
+		<content>Votre representant de l`armee vous a fait remarquer que l`une des principales causes de toutes ces guerres etaient la difference de religion. En imposant une religion unique dans le monde, il pense que le nombre de guerre serait grandement diminue. Ceux qui ne pratiquent pas cette religion unique seront juges pour atteinte a l`unite religieuse mondiale et emprisonnes.</content>
+		<response type="positive">En imposant une religion unique dans le monde, des guerres civiles eclatent partout autour du globe. Beaucoup de victimes sont a deplorer.</response>
+		<response type="negative">Votre decision de ne pas imposer de religion unique dans le monde ne cause pas de consequence.</response>
+		<effects>
+			<effect type="yes">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+<!-- Next year : 2020 -->
+
+	<card>
+		<year>2020</year>
+		<title>20e carte</title>
+		<content>Ayant fait de large avances scientifiques en termes de defense spatiale, le gouvernement russe prepare le lancement d`un satellite espion pouvant effectuer des frappes orbitales n`importe ou dans le monde. Laissez-vous le projet continue ?</content>
+		<response type="positive">Avec le lancement du satellite russe, tous les pays preparent leurs forces armees. La 3eme guerre mondiale n`a jamais ete aussi proche.</response>
+		<response type="negative">Avec l`interdiction du lancement du satellite russe, tous les pays sont rassures et les tensions baisse. Toutefois, la Russie a envahi l`Ukraine en guise represailles (encore).</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+	<card>
+		<year>2020</year>
+		<title>21e carte</title>
+		<content>La surpopulation devient un probleme majeur, par un manque de place, des immeubles ne pouvant pas etre plus haut et une population toujours croissante. L`une des propositions qui vous est faite est de raser la foret Amazonienne pour creer des logements. Choisir cette idee ou attendre une autre alternative ?</content>
+		<response type="positive">En accord avec la proposition de raser la foret Amazonienne, 13711 logements ont ete crees reglant donc le probleme de surpopulation, neanmoins de nombreuses especes florales et animalieres ont disparues et le rechauffement climatique est en hausse, car la flore n`absorbe plus le CO2.</response>
+		<response type="negative">Vous n`avez pas rase la foret Amazonienne. Le CO2 engendre par les activites humaines continue d`etre absorbe. Cependant, il y a toujours le probleme de surpopulation qui persiste.
+</response>
+		<effects>
+			<effect type="yes">
+				<economy>0</economy>
+				<environment>-1</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2020</year>
+		<title>22e carte</title>
+		<content>Nos scientifiques se disent capables de programmer des robots pour remplacer/aider les forces de l`ordre. Pensez-vous que ce projet doit aboutir ?</content>
+		<response type="positive">Les robots remplaçant/aidant les forces de l`ordre engendrent une hausse du niveau intellectuelle et une baisse de la delinquance. </response>
+		<response type="negative">Les robots ne remplaçant/aidant pas les forces de l`ordre, le taux de delinquance ne baisse pas.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/military.png</image>
+	</card>
+
+	<card>
+		<year>2020</year>
+		<title>23e carte</title>
+		<content>Le projet de l`Hyperloop (Train tres rapide reliant differentes capitales a l`echelle mondiale, se basant sur la technologie de la propulsion electromagnetique) est en pause depuis son lancement. Il pourrait pourtant grandement faciliter les echanges commerciaux et le tourisme. Voulez-vous investir pour finaliser le projet ?</content>
+		<response type="positive">Votre investissement dans l`Hyperloop rend les voyages plus rapides autour du globe. Les voyages en Hyperloop sont preferes aux avions, il y a donc moins de pollution du au kerosene.</response>
+		<response type="negative">Vous avez fait le choix de ne pas investir dans l`Hyperloop, les voyages sont donc longs et les avions sont encore le moyen n°1 pour les voyages. Les avions utilisant le kerosene, cela reste une source de pollution de l`air.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>-1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2020</year>
+		<title>24e carte</title>
+		<content>Le petrole se fait de plus en plus rare et il devient donc plus complique d`alimenter les fusees. Pour nos prochaines expeditions spatiales, la NASA propose de construire un ascenseur spatial. Suivre leur conseil ?</content>
+		<response type="positive">La construction de l`ascenseur spatial a engendre un gros investissement, mais sur le long terme, les missions augmenteront et elles seront beaucoup moins couteuses.</response>
+		<response type="negative">L`ascenseur spatial n`etant pas construit, les missions dans l`espace se font plus rare et les equipements en orbitent comme les satellites commencent a se deteriorer.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>1</environment>
+				<people>0</people>
+				<military>1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>-1</environment>
+				<people>0</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/economy.png</image>
+	</card>
+
+<!-- Next year : 2021 -->
+
+	<card>
+		<year>2021</year>
+		<title>25e carte</title>
+		<content>Nos avancees dans le domaine de la medecine ne nous permettent pas encore de guerir certaines maladies mortelles. La solution serait de permettre de cryogeniser les personnes malades pour preserver leur corps, et les reveiller dans quelques annees, quand nous serons capables de les guerir. Pour cela il faut autoriser la cryogenisation partout dans le monde, etes-vous d`accord ?</content>
+		<response type="positive">Grâce a l`autorisation de la cryogenisation permettra de sauver des vies a l`avenir. Nous donnons une chance aux personnes atteintes de maladies incurables.</response>
+		<response type="negative">La cryogenisation etant interdite et n`ayant pas les avances technologique necessaire, les personnes atteintes de maladies incurables sont condamnees a mourir.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>0</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2021</year>
+		<title>26e carte</title>
+		<content>L`utilisation de robots est de plus en plus courante et la question se pose sur les droits de ses derniers. Faut-il accorder une conscience dans l`intelligence artificielle de nos robots ? A vous de decider.</content>
+		<response type="positive">Les Robots prennent conscience de la mort et font donc passer leur vie avant celle des humains. Les robots sont en greve.</response>
+		<response type="negative">L`intelligence artificielle des robots n`ont pas de conscience, il continu de travailler.</response>
+		<effects>
+			<effect type="yes">
+				<economy>-1</economy>
+				<environment>0</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>0</people>
+				<military>1</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2021</year>
+		<title>27e carte</title>
+		<content>L`un de nos satellites telescope a decouvert la presence de vie sur une planete. Apres plusieurs passages proches de l`endroit de la decouverte, nous nous rendons compte que cette race semble bien superieure a nous, que ce soit en nombre et en technologie. Devons-nous envoyer des vaisseaux a leur rencontre ?</content>
+		<response type="positive">Avec l`envoi de vaisseaux pour rencontrer les extraterrestres, nous avons decouvert leurs mauvaises intentions. Les extraterrestres planifiaient de nous envahir. Nous nous sommes prepares a cette invasions et nous l`avons repousse.</response>
+		<response type="negative">Nous n`avons pas envoye de vaisseaux a la rencontre des extraterrestres, ces derniers avait de mauvaises intentions et nous ont envahis. Nous avons cependant repousse l`invasion mais au prix de lourdes pertes.</response>
+		<effects>
+			<effect type="yes">
+				<economy>0</economy>
+				<environment>-1</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>1</environment>
+				<people>-1</people>
+				<military>-1</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+	<card>
+		<year>2021</year>
+		<title>28e carte</title>
+		<content>Les essaies de voitures autonomes (sans conducteurs) de ces dernieres annees semblent concluants. Faut-il rendre la conduite autonome imposee dans le monde ?</content>
+		<response type="positive">Grâce a l`obligation d`avoir des voitures autonomes, il y a une baisse du nombre de mort et de blesses grave sur la route (1,24 millions de morts accidentes par an dans le monde).</response>
+		<response type="negative">L`obligation d`avoir des voitures autonomes n`etant pas passe, il y a toujours beaucoup de mort et de blesses grave sur la route (1,24 millions de morts accidentes par an dans le monde).</response>
+		<effects>
+			<effect type="yes">
+				<economy>1</economy>
+				<environment>0</environment>
+				<people>1</people>
+				<military>-1</military>
+			</effect>
+			<effect type="no">
+				<economy>0</economy>
+				<environment>-1</environment>
+				<people>-1</people>
+				<military>0</military>
+			</effect>
+		</effects>
+		<image>persons/people.png</image>
+	</card>
+
+</cards>
